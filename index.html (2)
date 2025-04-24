@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شخصيات إسلامية عظيمة</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="pattern pattern-top-left"></div>
+    <div class="pattern pattern-bottom-right"></div>
+    
+    <div class="container">
+        <div class="title-container">
+            <h1>شخصيات إسلامية عظيمة</h1>
+            <div class="decorative-line"></div>
+            <div class="subtitle">اكتشف سير العظماء من علماء ومفكري الإسلام</div>
+        </div>
+        
+        <div class="button-container">
+            <button id="getPersonBtn" class="main-button">
+                <i class="fas fa-compass icon"></i>
+                اكتشف شخصية
+            </button>
+        </div>
+        
+        <div class="loader-container" id="loaderContainer">
+            <div class="loader">
+                <div class="loader-circle"></div>
+                <div class="loader-circle"></div>
+            </div>
+            <div class="loader-text">جاري البحث عن شخصية...</div>
+        </div>
+        
+        <div id="personContent" class="content">
+            <!-- المحتوى سيتم إضافته هنا -->
+        </div>
+    </div>
+    
+    <div class="footer">
+        موقع الشخصيات الإسلامية العظيمة © 2025
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
